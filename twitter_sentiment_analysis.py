@@ -4,11 +4,11 @@ import csv
 import unicodedata
 
 # Step 1 - Authenticate
-consumer_key= 'a6OANIAaWDrYYnKSh8EhjKqKa'
-consumer_secret= 'KrLHDb4vspTfavBBgBdtR9sVQu9UDUJcZccu9z0uWPxtxgBRKg'
+consumer_key= ''
+consumer_secret= ''
 
-access_token='1144280360290643968-x1e0Dogngl6jLsVnFeRrusG9pVCKy7'
-access_token_secret='w4F24CJeJP3eAwOvmqXCY1xlFhEN8OvYy1m7OhuofgHZg'
+access_token=''
+access_token_secret=''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
